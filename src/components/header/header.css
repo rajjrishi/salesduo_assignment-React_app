@@ -1,0 +1,141 @@
+.header{
+    display: flex;
+    height: 65px;
+    background-color: white;
+    color: rgb(200,200,230);
+}
+.logo{
+    flex: 1.8;
+    border-right: solid;
+    border-width: thin;
+    border-color: #f1f4f9;
+}
+.logo_wrap{
+    padding: 10px;
+    color: rgb(70,70,85);
+    display: flex;
+    align-items: center;
+}
+.logo_icon{
+    width: 45px;
+}
+.logo_name{
+    font-size: large;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-family: 'Playfair Display', serif;
+}
+.header_other{
+    flex: 8.2;
+}
+.header_other_wrap{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.header_search_icons{
+    justify-content: left;
+    /*width: 3%;*/
+    width: 30px;
+}
+.search_form{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    color: rgb(200,200,230);
+}
+.header_icons
+{
+    /*width: 1.8%;*/
+    width: 35px;
+    justify-content: right;
+    padding: 8px;
+}
+.profile{
+    /*width: 15%;*/
+    width: 230px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.profile_text{
+    width: 60%;
+    font-size: small;
+    text-align: center;
+}
+.profile_photo{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.avatark{
+    width: 70%;
+}
+.dropdownk{
+    width: 30%;
+    color: black;
+}
+
+.username{
+    color: rgb(130,160,130);
+}
+.userpost{
+    color: rgb(130,130,160);
+}
+#header_sidenav{
+    display: none;
+}
+.header_sideicon{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .logo{
+        display: none;
+    }
+    .header_other{
+        flex: 1;
+        padding: 3px;
+    }
+    .header_other_wrap{
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px;
+        align-items: center;
+    }
+    .header_sideicon{
+        display: block;
+        float: left;
+        font-size: x-large;
+        width: 20%;
+    }
+    .header_search_icons{
+        display: none;
+    }
+    .search_form{
+        display: none;
+    }
+    .header_icons
+    {
+        /*width: 1.8%;*/
+        width: 20%;
+        padding: 8px;
+    }
+    .profile{
+        /*width: 15%;*/
+        width: 20%;
+        display: flex;
+        float: right;
+    }
+    .profile_text{
+        display: none;
+    }
+    
+}
+
+#header_sidenav:checked ~ .logo{
+    flex: 1;
+}

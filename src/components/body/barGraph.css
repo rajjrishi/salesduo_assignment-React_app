@@ -1,0 +1,12 @@
+.graph{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+}
+.graph_upper{
+    background-color: #f1f4f9;
+}
+.graph_lower{
+    background-color: rgb(75,75,255);
+}

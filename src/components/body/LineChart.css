@@ -1,0 +1,45 @@
+.right_body{
+    background-color: white;
+    border-radius: 3px;
+}
+
+.right_body_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: #f1f4f9;
+    align-items: center;
+}
+.Name{
+    font-size: x-large;
+    color: black;
+}
+.selection{
+    height: 35px;
+    color: rgb(130,160,130);
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    padding: 15px;
+    border: solid;
+    border-width: thin;
+    border-color: #f1f4f9;
+    border-radius: 3px;
+    width: 45%;
+    margin: 2.5%;
+}
+.box_header{
+    font-size: small;
+    color: rgb(130,160,130);
+}
+.small{
+    font-size: xx-small;
+}
+.line_graph{
+    height: 50%;
+}

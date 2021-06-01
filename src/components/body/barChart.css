@@ -1,0 +1,19 @@
+.bar{
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+}
+.bar_header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(130,130,160);
+    margin-bottom: 8px;
+}
+.bar_line{
+    display: flex;    
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.bar_graph{
+    width: 35px;
+}

@@ -1,0 +1,18 @@
+.goal{
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+}
+.goal_header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(130,130,160);
+    margin-bottom: 8px;
+}
+.goal_line{
+    display: flex;    
+    height: 3px;
+    background-color: #f1f4f9;
+    border-radius: 50px;
+    margin-top: 10px;
+}
